@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>FUSION 2024</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+<style>
+     .separator {
+            border-left: 1px solid #000000; /* Change the color and style as needed */
+            height: 100%; /* Match the height of the columns */
+            margin-top: 10px; /* Adjust the margin as needed */
+            margin-bottom: 10px; /* Adjust the margin as needed */
+        }
+</style>
+</head>
+<body>
+    <div class="container" style="padding-top: 5px; align-self: center; width: 80%; height:auto; background-color: aliceblue;">
+        <div class="header">
+            <div style="padding:2%; align-items: center; width:99%">
+                <img src="assets/banner.png" alt="Conference Template Banner" style="width:100%; height:auto; z-index: 2;">
+            </div>
+            <div id="navbar-placeholder"></div>
+        </div>
+        <div class="row"></div>
+        <div class="row"">
+            <div class="col-md-8">
+                <p><span style="color: #ff6600; margin-top: 20px; margin-left: 20px;"><strong>About FUSION 2024</strong></span></p>
+                <p style="text-align: justify; margin-left: 20px;">FUSION 2024 is a forward-thinking scientific event focused on Astronomy, Astrophysics, AI, Biotechnology, Environmental Science, Nanoscience, Quantum Computing, and Renewable Energy. Celebrating National Science Day, the seminar bridges theory and practice, involving students and experts.</p>
+                <p style="text-align: justify; margin-left: 20px;">The proceedings, published in both print and digital formats, promise valuable insights. FUSION 2024's national significance lies in its role as a catalyst for innovation, aligning with India's goals in research, technology, and sustainable development.</p>
+                <p style="text-align: justify; margin-left: 20px;">Under the theme "Frontiers Unveiled," FUSION 2024 aims to inspire collaboration, knowledge exchange, and the growth of science in India and beyond.</p>
+                <p style="text-align: justify;">&nbsp;</p>
+                <p style="text-align: justify; margin-left: 20px;"><strong style="color: #ff6600;"><strong>About the Institute</strong></strong></p>
+                <p style="text-align: justify; margin-left: 20px;">Prof. Rajendra Singh (Rajju Bhaiya) Institute of Physical Sciences for Study and Research within the campus of Veer Bahadur Singh Purvanchal University, Jaunpur is an Institution of national reputation and established by the eﬀorts of the Government of Uttar Pradesh, in the year 2018. The Institute is a tribute to visionary Prof. Rajendra Singh popularly known as 'Rajju Bhaiya', who was a Distinguished Professor and Head of the Physics Department, University of Allahabad, Prayagraj. Rajju Bhaiya was not only an educationist but also a thinker, a social reformer and a skilled organizer.</p>
+                <div style="text-align: justify; margin-left: 20px;">
+                <div>The establishment of the Institute accomplishes the mission of the University to oﬀer best environment for education, students and society for universal developments in all respects. The Institute has four departments of Physical Sciences viz: Physics, Chemistry, Mathematics and Earth &amp; Planetary Sciences which oﬀers the undergraduate, postgraduate and doctoral programme. Institute has two research centers i.e., Nanoscience and Technology Research Centre and Renewable Energy Research Centre which oﬀer M. Tech. (Materials Science &amp; Technology) programme. The departments and research centres have well-equipped laboratories with instruments like SEM-EDS, XRD, FTIR, UV Vis, APS-100, TPS-500S with other infrastructural facilities for undertaking advanced level research.</div>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+                <div><strong style="color: #ff6600;">About the University</strong></div>
+                <div><strong style="color: #ff6600;">&nbsp;</strong></div>
+                <div>The globalization has brought the entire world under one roof and with the technological advancements across the globe, enhancement of the education system has become the focal point. Veer Bahadur Singh Purvanchal University, Jaunpur (U.P.) situated on the banks of river Gomati and Taposthali of Maharshi Yamdagni is striding in the same direction. The University has stood the test of time and developed rapidly to provide students with all facilities to cope with the changing world.</div>
+                <div>
+                    <div>The University is committed to be a leading global university and is recognized as an excellent center of learning for quality higher education, The university is committed to create, disseminate and translate knowledge through inclusive education by imbibing traditional and modern knowledge; inculcating values, morals and ethics aligned with our motto &ldquo;Tejasvinavadhitamstu". The university oﬀers under graduate, post graduate and research programs in Engineering &amp; Technology, Medicine, Management, Law, Applied Social Science, Physical Sciences, Life Sciences as new learning avenues. The Mission of the university is to continue striving for excellence and provide all possible advanced facilities in the respective ﬁelds, that will help nurture the right growth of students thereby promising bright future of the country.</div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-1 separator"></div>
+            <div class="col-md-3">
+                <h3>Contant</h3>
+                <p><strong>Dr. Ramanshu P. Singh</strong></p>
+                <p>(Convener, FUSION 2024)</p>
+                <address><p>Department of Physics,</p><p>Prof. Rajendra Singh (Rajju Bhaiya) Institute of Physical Sciences for Study and Research</p>V. B. S. Purvanchal University, Jaunpur 222003</address><address>+91 9628210239, <a href="mailto:ramanshupsingh@gmail.com">ramanshupsingh@gmail.com</a></address><address>&nbsp;</address>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Fetch and insert the navigation bar
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+          });
+    </script>
+</body>
