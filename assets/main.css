@@ -75,6 +75,9 @@ th,td{
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
 }
+iframe {
+    z-index: -1;
+}
 
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif; height: 150px; width:auto}
