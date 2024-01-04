@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Registration - FUSION 2024</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+<style>
+     .separator {
+            border-left: 1px solid #000000; /* Change the color and style as needed */
+            height: 100%; /* Match the height of the columns */
+            margin-top: 10px; /* Adjust the margin as needed */
+            margin-bottom: 10px; /* Adjust the margin as needed */
+        }
+        .hd1{font-size:1.80em; color:#093D45; font-weight: bolder;}
+        .hd2{font-size:1.50em; color: #AF453E;}
+        .hd3{font-size:1.4em; color:black; font-weight: bold;}
+        .hd4{font-size:1.3em;}
+</style>
+</head>
+<body>
+    <div class="container" style="padding-top: 5px; align-self: center; width: 80%; height:auto; background-color: aliceblue;">
+        <div class="header">
+            <div style="padding:2%; align-items: center; width:99%">
+                <img src="assets/banner.png" alt="FUSION 2024 VBSPU" style="width:100%; height:auto; z-index: 2;">
+            </div>
+            <div id="navbar-placeholder"></div>
+        </div>
+        <div class="row"></div>
+        <div class="row">
+            <div class="col-md-9">           
+                  
+            </div>
+            <div class="col-md-3">
+                    <h3>Contant</h3>
+                    <p><strong>Dr. Ramanshu P. Singh</strong></p>
+                    <p>(Convener, FUSION 2024)</p>
+                    <address><p>Department of Physics,</p><p>Prof. Rajendra Singh (Rajju Bhaiya) Institute of Physical Sciences for Study and Research</p>V. B. S. Purvanchal University, Jaunpur 222003</address><address>+91 9628210239, <a href="mailto:ramanshupsingh@gmail.com">ramanshupsingh@gmail.com</a></address><address>&nbsp;</address>
+                    <a href="mailto:fusion24.vbspu@gmail.com">@Help</a>
+            </div>
+    </div>
+    <script>
+        // Fetch and insert the navigation bar
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+          });
+    </script>
+</body>
